@@ -36,7 +36,7 @@ namespace File_Handling_in_C_
             FileStream file2 = new FileStream("duplicate.txt", FileMode.Create);
             int readFile;
             readFile = file1.ReadByte();
-            while(readFile!=-1)//file reading m line k end pr -1 atta ha
+            while(readFile!=-1)//file reading m file k end pr -1 atta ha
             {
                 file2.WriteByte((byte)readFile);
                 readFile = file1.ReadByte();
