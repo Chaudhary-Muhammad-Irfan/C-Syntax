@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace C_Sharp_Practice
+namespace C_Sharp_Practice 
 {
     internal class Program
     {
